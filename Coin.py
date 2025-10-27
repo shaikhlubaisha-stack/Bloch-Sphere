@@ -3,6 +3,11 @@
 # Streamlit + Qiskit Gamified Bloch Sphere Simulator (v3)
 # By: Lubaisha Shaikh
 # =======================================================
+import os
+os.environ["MPLCONFIGDIR"] = "/tmp/matplotlib"
+import matplotlib
+matplotlib.use("Agg")
+
 
 import streamlit as st
 import matplotlib.pyplot as plt
